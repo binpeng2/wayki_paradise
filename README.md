@@ -1,0 +1,1 @@
+# wayki_paradise
