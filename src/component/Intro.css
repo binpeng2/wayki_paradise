@@ -1,5 +1,4 @@
 .title{
-
     margin-top: 41px;
     text-align: center;
     vertical-align:middle;
@@ -12,5 +11,13 @@ span{
     padding-right:182px;
     font-size: 20px;
     text-align: justify;
+}
 
+h3{
+    color:white;
+    display:block;
+    padding-left:182px;
+    padding-right:182px;
+    font-size: 25px;
+    text-align: justify;
 }
