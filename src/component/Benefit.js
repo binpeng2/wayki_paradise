@@ -1,12 +1,25 @@
 import React, {Component} from 'react';
-import './Intro.css';
 import {Row, Col,Input, Divider} from 'antd';
+import './Intro.css';
+import './Benifit.css';
 
-
+const miningData = require("./miningData.json");
 class Benefit extends Component{
 
+    constructor(props){
+      super(props);
+      this.state = {
+        dailyRate: "0",
+        weeklyRate: "0",
+        monthlyRate: "0",
+        quarterlyRate: "0",
+        investValue:0,
+        currentLevel:1
+      }
+    }
+
     render(){
-        
+
         return(
             <div>
             <div className = "title">
@@ -15,29 +28,30 @@ class Benefit extends Component{
             </div>
             <Row >
                 <Col xs={10}>
-                <span className= "tag-l">用户收益计算器</span><br />
-                <Input style={{width:'30%', height:"5vh",marginLeft:"25em",marginBottom:"5em"}}>
+                <p className= "tag-l">用户收益计算器</p><br />
+                <p className= "currentLevel">当前层级：{this.state.currentLevel} <span>挖矿难度系数 100 宝石 : {miningData[this.state.currentLevel.toString()].rate} WPT (24小时)</span></p>
+                <Input value={this.state.investValue} style={{width:'30%', height:"5vh",marginLeft:"25em",marginBottom:"5em"}}>
                 </Input>
                 <span-l style={{marginLeft:"3em"}}>Gaex 交易所时时汇率  <br />
-                &emsp;&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB 
+                &emsp;&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB
                 </span-l ><br />
                 </Col>
 
                 <Col xs={2}>
 
                 <Divider type="vertical" style={{height:"20em",marginLeft:"10em"}}/>
-                  
+
                 </Col>
 
 
                 <Col xs={10}>
-                <span className = "tag-r">每日收益： 3%</span>
+                <span className = "tag-r">每日收益： {this.state.dailyRate}%</span>
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB</span-r>
-                <span className = "tag-r">每周收益： 3%</span>
+                <span className = "tag-r">每周收益： {this.state.weeklyRate}%</span>
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
-                <span className = "tag-r">每月收益： 3%</span>
+                <span className = "tag-r">每月收益： {this.state.monthlyRate}%</span>
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
-                <span className = "tag-r">三月收益： 3%</span>
+                <span className = "tag-r">三月收益： {this.state.quarterlyRate}%</span>
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
                 </Col>
           </Row><br /><br />
@@ -76,33 +90,33 @@ class Benefit extends Component{
             <Row>
             <Col xs={6} className = "tower-l">
           <img src={require("../assets/如何收益/tower-200.png")} alt="tower-l" width="20%"/>
-          神箭塔 = 充值 210 WICC 
+          神箭塔 = 充值 210 WICC
           </Col>
           <Col xs={6} className = "tower-r">
           <img src={require("../assets/如何收益/tower-2000.png")} alt="tower-r" width="20%"/>
-          巨斧塔 = 充值 3000 WICC 
+          巨斧塔 = 充值 3000 WICC
           </Col>
             </Row>
 
             <Row>
             <Col xs={6} className = "tower-l">
           <img src={require("../assets/如何收益/tower-5000.png")} alt="tower-l" width="20%"/>
-          冰凌塔 = 充值 5000 WICC 
+          冰凌塔 = 充值 5000 WICC
           </Col>
           <Col xs={6} className = "tower-r">
           <img src={require("../assets/如何收益/tower-10000.png")} alt="tower-r" width="20%"/>
-          铁炮塔 = 充值 10000 WICC 
+          铁炮塔 = 充值 10000 WICC
           </Col>
             </Row>
 
             <Row>
             <Col xs={6} className = "tower-l">
           <img src={require("../assets/如何收益/tower-8000.png")} alt="tower" width="20%"/>
-          冰球塔 = 充值 13000 WICC 
+          冰球塔 = 充值 13000 WICC
           </Col>
           <Col xs={6} className = "tower-r">
           <img src={require("../assets/如何收益/tower-15000.png")} alt="tower" width="20%"/>
-          火炮塔 = 充值 25000 WICC 
+          火炮塔 = 充值 25000 WICC
           </Col>
             </Row>
 

@@ -1,0 +1,10 @@
+.currentLevel{
+  font-size: 15px;
+  margin-left: 5%;
+  font-weight: 600;
+}
+
+.currentLevel span{
+  color: black;
+  margin-left: 20px;
+}
