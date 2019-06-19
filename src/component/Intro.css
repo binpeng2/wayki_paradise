@@ -1,5 +1,5 @@
 .title{
-    margin-top: 41px;
+    margin-top: 5%;
     text-align: center;
     vertical-align:middle;
 }
@@ -7,16 +7,16 @@
 span{
     color:black;
     display:block;
-    padding-left:282px;
-    padding-right:282px;
+    padding-left:20%;
+    padding-right:20%;
     font-size: 20px;
     text-align: justify;
 }
 span-l{
     color:black;
     display:block;
-    padding-left:282px;
-    padding-right:82px;
+    padding-left:40%;
+    padding-right:10%;
     font-size: 20px;
     text-align: justify;
 }
@@ -24,8 +24,8 @@ span-l{
 span-r{
     color:black;
     display:block;
-    padding-left:82px;
-    padding-right:282px;
+    padding-left:10%;
+    padding-right:40%;
     font-size: 20px;
     text-align: justify;
 }
@@ -42,9 +42,9 @@ span-r-small{
     font-family:STHeiti;
     color:white;
     display:block;
-    padding-left:282px;
+    padding-left:40%;
     margin-bottom: 11px;
-    padding-right:182px;
+    padding-right:10%;
     font-size: 25px;
     text-align: justify;
 }
@@ -53,9 +53,9 @@ span-r-small{
     font-family:STHeiti;
     color:white;
     display:block;
-    padding-left:82px;
+    padding-left:10%;
     margin-bottom: 11px;
-    padding-right:282px;
+    padding-right:40%;
     font-size: 25px;
     text-align: justify;
 }

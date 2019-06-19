@@ -10,10 +10,12 @@ function App() {
     <div className="App">
       <header className="App-header">
       <img src={require("../src/assets/header-img.png")} alt="Logo" width="100%"/>
-      <Intro className = "content"/>
+      <div className = "content">
+      <Intro />
       <Benefit />
       <Gem />
       <FastGuide />
+      </div>
       </header>
     </div>
   );

@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './Intro.css';
 import {Row, Col} from 'antd';
 
-import IntroData from '../data/IntroData';
 
 class Intro extends Component{
 
@@ -11,14 +10,19 @@ class Intro extends Component{
         return(
             <div>
             <div className = "title">
-            <img src={require("../assets/玩法介绍-tag.png")} alt="Logo" width="117px" height="41px"/>
+            <img src={require("../assets/玩法介绍-tag.png")} alt="Logo" width="10%" />
             </div>
                 <article className = "IntroData">
-                    <IntroData />
+  
+                <br />
+                <span>宝石争霸是首个建立在维基链生态的大型塔防类去中心化游戏。</span><br />
+                <span>玩家在《宝石争霸》中消耗宝石建造防御塔， 防御塔建成后会自动攻击在一定范围内经过的小怪，小怪死亡爆出金币，玩家获得收益。防御塔共有四种类型，每个类型可升级一次以提高攻击能力和收益能力。防御塔等级越高，数量越多，越具有攻击力，玩家收益越高！宝石争霸玩家可通过建塔、升级、打怪来获得WPT令牌，玩家花费宝石越多，可获得WPT令牌也越多。获得数量参考维基天堂平台挖矿机制。</span><br />
+                <span>游戏中的防御塔有维护指标，满级维护为100。维护指标随时间推移会越来越低。当维护指标降为0，防御塔停止攻击小怪，不再获得收益。玩家需要使用 3 宝石加满维护值，才能正常工作，满级维护值可以营业 3 天。</span><br /><br />
+ 
                 </article>
             
-                <Row >
-                <Col xs={12}>
+                <Row type="flex" justify="center">
+                <Col span={12} >
                 <span class = "tag-l">充值提币</span>
                 <span-l>充值（“共振”）：<br />
                     1.充值时请点击游戏界面的右上角的“共振”来选择宝石充值套餐，之后会链接到用户所绑定的wayki钱包中购买。<br />
@@ -30,7 +34,7 @@ class Intro extends Component{
 
                 </span-l><br />
                 </Col>
-                <Col xs={12}>
+                <Col span={12} >
                 <span class = "tag-r">邀请奖励</span>
                 <span-r>通过分享邀请码，邀请好友注册游戏；
                      邀请人盈利分为三级，按邀请关系依次获得被邀请人投资额的3% - 2% - 1%的收益。
