@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Intro.css';
-import {Row, Col,InputNumber} from 'antd';
+import {Row, Col,Input} from 'antd';
 
 
 class Benefit extends Component{
@@ -15,9 +15,8 @@ class Benefit extends Component{
             <Row >
                 <Col xs={12}>
                 <span className= "tag">用户收益计算器</span>
-                <InputNumber
-                    style={{width:'25%', height:"5vh",marginLeft:"18em",marginBottom:"5em"}}>
-                </InputNumber>
+                <Input style={{width:'25%', height:"5vh",marginLeft:"18em",marginBottom:"5em"}}>
+                </Input>
                 <span>Gaex 交易所时时汇率         <br />
 	                XXX WPT ≈ XXX WICC ≈ XXX RMB 
                 </span><br />
