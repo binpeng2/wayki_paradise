@@ -89,5 +89,17 @@ span-r-small{
 }
 
 .row{
-    margin-left:82px;
+    margin-left:100px;
 }
+.Gem-1{
+    margin-left:3em;
+}
+.Gem-2{
+    margin-left:0em;
+}
+ .Gem-3{
+    margin-left:-3em;
+}
+.Gem-4{
+    margin-left:-6em;
+} 

@@ -14,32 +14,32 @@ class Gem extends Component{
             </div>
 
             <Row type="flex" justify="space-around" align="middle" className="row">
-                <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/01.png")} alt="Gem" width="100%" />
+                <Col xs={4} span={2} >
+                <img src={require("../assets/玩家使用wicc兑换宝石/01.png")} className="Gem-1" width="100%" />
+                </Col>
+                <Col xs={4} span={2}>
+                <img src={require("../assets/玩家使用wicc兑换宝石/02.png")} className="Gem-2" width="100%"/>
                 </Col>
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/02.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/玩家使用wicc兑换宝石/03.png")} className="Gem-3" width="100%"/>
                 </Col>
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/03.png")} alt="Gem" width="100%"/>
-                </Col>
-                <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/04.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/玩家使用wicc兑换宝石/04.png")} className="Gem-4" width="100%"/>
                 </Col>
           </Row>
 
-          <Row type="flex" justify="space-around" align="middle">
+          <Row type="flex" justify="space-around" align="middle" className="row">
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/05.png")} alt="Gem" width="100%" />
+                <img src={require("../assets/玩家使用wicc兑换宝石/05.png")} className="Gem-1" width="100%" />
                 </Col>
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/06.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/玩家使用wicc兑换宝石/06.png")} className="Gem-2" width="100%"/>
                 </Col>
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/07.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/玩家使用wicc兑换宝石/07.png")} className="Gem-3" width="100%"/>
                 </Col>
                 <Col xs={4} sm={4} md={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/08.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/玩家使用wicc兑换宝石/08.png")} className="Gem-4" width="100%"/>
                 </Col>
           </Row>
 
