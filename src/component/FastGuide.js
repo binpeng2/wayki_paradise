@@ -18,9 +18,9 @@ class FastGuide extends Component{
 			</div>
 			<div class = "step-body">
 			<span><br/><br/><br/><br/>
-					1、Web端 通过《宝石争霸》官网进入：https://www.waykidapps.com/<br/>
-     			 &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;Web端 通过维基链官网进入：https://www.waykichain.com/<br/>
-  					&nbsp;&nbsp;&nbsp;（Web端需安装插件钱包：WaykiMax）<br/>
+					1、Web端 通过《宝石争霸》官网进入：<a href="https://www.waykidapps.com/">https://www.waykidapps.com/</a><br/>
+     			 &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;Web端 通过维基链官网进入：<a href="https://www.waykichain.com/">https://www.waykichain.com/</a><br/>
+  					&nbsp;&nbsp;&nbsp;（Web端需安装插件钱包：<a href="https://chrome.google.com/webstore/detail/waykimax/odaegfdpkolgbdaeibcebmibmibchbce">WaykiMax</a>）<br/>
 					2、移动端 通过维基时代DApp进入，从发现栏目即可开启游戏<br/>
 					将个人维基钱包绑定后注册游戏ID，即可进入游戏。<br/><br/><br/>
 			</span>
