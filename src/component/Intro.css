@@ -1,5 +1,4 @@
 .title{
-
     margin-top: 41px;
     text-align: center;
     vertical-align:middle;
@@ -8,9 +7,99 @@
 span{
     color:black;
     display:block;
-    padding-left:182px;
-    padding-right:182px;
+    padding-left:282px;
+    padding-right:282px;
     font-size: 20px;
     text-align: justify;
+}
+span-l{
+    color:black;
+    display:block;
+    padding-left:282px;
+    padding-right:82px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+span-r{
+    color:black;
+    display:block;
+    padding-left:82px;
+    padding-right:282px;
+    font-size: 20px;
+    text-align: justify;
+}
+span-r-small{
+    color:black;
+    display:block;
+    padding-left:82px;
+    padding-right:282px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.tag-l{
+    font-family:STHeiti;
+    color:white;
+    display:block;
+    padding-left:282px;
+    margin-bottom: 11px;
+    padding-right:182px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.tag-r{
+    font-family:STHeiti;
+    color:white;
+    display:block;
+    padding-left:82px;
+    margin-bottom: 11px;
+    padding-right:282px;
+    font-size: 25px;
+    text-align: justify;
+}
+.ant-input-number{
+    margin: 10em;
+    color: white;
 
 }
+.tower-l{
+    margin-left: 23em;
+    margin-right:0em;
+    margin-bottom:5em;
+    color: black;
+    font-size: 18px;
+}
+
+.tower-r{
+    margin-left: 10em;
+    margin-right:0em;
+    margin-bottom:5em;
+    color: black;
+    font-size: 18px;
+}
+
+.pyramid{
+    margin-left:10em;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.row{
+    margin-left:100px;
+}
+.Gem-1{
+    margin-left:3em;
+}
+.Gem-2{
+    margin-left:0em;
+}
+ .Gem-3{
+    margin-left:-3em;
+}
+.Gem-4{
+    margin-left:-6em;
+} 

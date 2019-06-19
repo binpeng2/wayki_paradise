@@ -1,0 +1,27 @@
+div.step {
+  position: absolute;
+  left: 0px;
+}
+
+
+div.step-body {
+  position: absolute;
+  left: 100px;
+}
+
+div.step-body-2 {
+  position: relative;
+  left: 200px;
+  width: 800px;
+}
+
+h1{
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+div.pic {
+  position: absolute;
+  left: 280px;
+}
