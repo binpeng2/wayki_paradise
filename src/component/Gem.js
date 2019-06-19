@@ -10,10 +10,10 @@ class Gem extends Component{
         return(
             <div>
             <div className = "title">
-            <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="299px" height="41px"/>
+            <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="299px" height="41px"/><br /><br />
             </div>
 
-            <Row type="flex" justify="space-around" align="middle">
+            <Row type="flex" justify="space-around" align="middle" className="row">
                 <Col xs={4} sm={4} md={4}>
                 <img src={require("../assets/玩家使用wicc兑换宝石/01.png")} alt="Gem" width="100%" />
                 </Col>

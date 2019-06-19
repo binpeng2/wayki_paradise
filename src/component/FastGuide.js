@@ -36,8 +36,8 @@ class FastGuide extends Component{
             <img src={require("../assets/五分钟攻略/步骤2.png")} alt="Logo" width="500px" height="300px"/>
             </div>
 			<div class = "step-body-2">
-			<span>1.	进入游戏界面，点击右上角的“共振”图标，进入充值界面。<br/>
-			2.	选择充值套餐，点击购入，完成宝石充值。</span>
+			<span-l>1.	进入游戏界面，点击右上角的“共振”图标，进入充值界面。<br/>
+			2.	选择充值套餐，点击购入，完成宝石充值。</span-l>
 			</div>
 
 			<div><br/><br/><br/><br/><br/><br/><br/><br/></div>
@@ -50,10 +50,10 @@ class FastGuide extends Component{
             <img src={require("../assets/五分钟攻略/步骤3.png")} alt="Logo" width="500px" height="300px"/>
             </div>
 			<div class = "step-body-2">
-			<span>1.	点击地图中任一塔座，消耗宝石开始建造防御塔。游戏提供四个级别的防御塔给用户，不同级别防御塔的攻击力与其所产生的收益都不同。<br/>
+			<span-l>1.	点击地图中任一塔座，消耗宝石开始建造防御塔。游戏提供四个级别的防御塔给用户，不同级别防御塔的攻击力与其所产生的收益都不同。<br/>
 				  2.	若防御塔维护值为零，则不会产生收益。玩家需要点击“维修”，加满维护值。<br/>
 				  3.	在建造初级防御塔后，每座防御塔还有一次升级的机会，升级后会直接增加攻击力和收益。
-			</span>
+			</span-l>
 			</div>
 
 			<div><br/><br/><br/><br/><br/></div>
@@ -66,10 +66,10 @@ class FastGuide extends Component{
             <img src={require("../assets/五分钟攻略/步骤4.png")} alt="Logo" width="500px" height="300px"/>
             </div>
 			<div class = "step-body-2">
-			<span>1.	每座防御塔产生的收益将会实时显示在“防御收益”中，用户可以根据个人偏好选择“炼石”或“提现”。<br/>
+			<span-l>1.	每座防御塔产生的收益将会实时显示在“防御收益”中，用户可以根据个人偏好选择“炼石”或“提现”。<br/>
 				  2.	炼石：即为将收益产生的WPT兑换成宝石，继续用于建造或升级防御塔。<br/>
 				  3.	提现： 用户可将收益随时提取到用户ID所绑定的钱包中，完成提现。
-			</span>
+			</span-l>
 			</div>
 
 			<div><br/><br/><br/></div>
