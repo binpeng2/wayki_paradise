@@ -13,11 +13,25 @@ span{
     text-align: justify;
 }
 
-h3{
+.tag{
+    font-family:STHeiti;
     color:white;
     display:block;
     padding-left:182px;
+    margin-bottom: 11px;
     padding-right:182px;
     font-size: 25px;
     text-align: justify;
+}
+.ant-input-number{
+    margin: 10em;
+    color: white;
+
+}
+.tower{
+    margin-left: 12em;
+    margin-right:2em;
+    margin-bottom:5em;
+    color: black;
+    font-size: 18px;
 }
