@@ -4,7 +4,7 @@ div.nav-content {
 	top: 2%;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    div.nav-content {
 	position: absolute;
 	right: 3%;
@@ -21,7 +21,7 @@ span.nb {
 	font-size: 1.25rem;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    span.nb {
 	font-weight: 700;
 	font-size: 0.65rem;

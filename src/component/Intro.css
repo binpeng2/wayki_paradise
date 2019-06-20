@@ -6,23 +6,13 @@
 
 .intro{
     color:black;
-    display:block;
     padding-left:20%;
     padding-right:20%;
-    padding-bottom:5%;
     font-size: 1.25rem;
-    text-align: justify;
-
 }
 
-span {
-    color:black;
-    display:block;
-    font-size: 1.25rem;
-    text-align: justify;
-}
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
-   span {
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
+   .intro{
 	   font-size: 0.6rem;
    }
 }
@@ -36,7 +26,7 @@ span-l{
     text-align: justify;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    span-l{
     color:black;
     display:block;
@@ -56,7 +46,7 @@ span-r{
     text-align: justify;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    span-r{
     color:black;
     display:block;
@@ -76,7 +66,7 @@ span-r-small{
     text-align: justify;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    span-r-small{
     color:black;
     display:block;
@@ -93,7 +83,7 @@ span-r-small{
 	font-size:1.5625rem;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .tag{
     color:white;
     padding-left:34%;
@@ -106,7 +96,7 @@ span-r-small{
     padding-left:20%;
 	font-size:1.5625rem;
 }
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .wiki{
     color:white;
     padding-left:20%;
@@ -131,7 +121,7 @@ span-r-small{
     text-align: justify;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .tag-l{
     font-family:STHeiti;
     color:white;
@@ -154,7 +144,7 @@ span-r-small{
     font-size: 1.5625rem;
     text-align: justify;
 }
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .tag-r{
     font-family:STHeiti;
     color:white;
@@ -180,7 +170,7 @@ span-r-small{
     color: black;
     font-size: 1.125rem;
 }
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .tower-l{
     margin-left: 20%;
     margin-right:0%;
@@ -198,7 +188,7 @@ span-r-small{
     font-size: 1.125rem;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .tower-r{
     margin-left: 10%;
     margin-right:0%;
@@ -218,7 +208,7 @@ span-r-small{
     font-size: 1.125rem;
 }
 
-@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+@media screen and (max-width: 512px){/* 锟斤拷锟斤拷锟斤拷锟斤拷小锟斤拷 512px, 锟斤拷锟矫革拷小font-size锟斤拷锟斤拷 */
    .price{
     font-size: 0.55rem;
 }

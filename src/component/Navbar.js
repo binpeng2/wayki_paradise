@@ -20,7 +20,7 @@ export default class Navbar extends Component {
                 offset={-50}
 				duration={500}
               >
-              	  <span className="nb">玩法介绍</span>
+              <span className="nb">玩法介绍</span>
               </Link>
 			  &emsp;&nbsp;
 			  <Link style={{ color: '#FFF' }}
@@ -40,9 +40,8 @@ export default class Navbar extends Component {
                 spy={true}
                 smooth={true}
                 offset={-50}
-				duration={500}
-              >
-                                  <span className="nb">充值宝石</span>
+				duration={500}>
+          <span className="nb">充值宝石</span>
               </Link>
 			  &emsp;&nbsp;
 			  <Link style={{ color: '#FFF' }}
