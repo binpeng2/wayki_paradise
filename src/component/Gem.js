@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import {Row, Col} from 'antd';
-
+import { Element } from 'react-scroll';
 
 class Gem extends Component{
 
@@ -9,6 +9,7 @@ class Gem extends Component{
         
         return(
             <div>
+                <Element id="Gem">
             <div className = "title">
             <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="299px" height="41px"/><br /><br />
             </div>
@@ -43,7 +44,7 @@ class Gem extends Component{
                 </Col>
           </Row>
 
-
+          </Element>
 
             </div>
 

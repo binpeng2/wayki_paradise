@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Intro.css';
+import { Element } from 'react-scroll';
 import {Row, Col} from 'antd';
 
 
@@ -9,11 +10,13 @@ class Intro extends Component{
         
         return(
             <div>
+            <Element id="Intro">
             <div className = "title">
             <img src={require("../assets/玩法介绍-tag.png")} alt="Logo" width="10%" />
             </div>
+
                 <article className = "IntroData">
-  
+                
                 <br />
                 <p className = "intro">
                 <span>宝石争霸是首个建立在维基链生态的大型塔防类去中心化游戏。</span><br />
@@ -47,12 +50,13 @@ class Intro extends Component{
 
                 <span class = "tag-r">炼石复投</span>
                 <span-r className = "column">将防御塔收益产生的WPT兑换成宝石，继续用于建造或升级防御塔,使用“炼石“更有5%宝石赠送。
-炼石兑换宝石计算公式：
+炼石兑换宝石计算公式：<br/>
+                <img src={require("../assets/formula.png")} alt="Logo" width="100%" />
                 </span-r>
                 </Col>
 
           </Row>
-
+          </Element>
             </div>
 
         )

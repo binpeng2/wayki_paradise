@@ -16,7 +16,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.logo{
+  text-align: left;
+}
+.child{
+    position: absolute;
+}
 .App-header {
   background-image: url(../src/assets/bg.png);
   min-height: 100vh;

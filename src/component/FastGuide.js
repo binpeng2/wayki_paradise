@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './FastGuide.css';
 import {Row, Col} from 'antd';
 import { relative } from 'path';
-
+import { Element } from 'react-scroll';
 
 class FastGuide extends Component{
 
@@ -10,6 +10,7 @@ class FastGuide extends Component{
         
         return(
             <div>
+			<Element id="FastGuide">
 
             <div className = "title">
             <img src={require("../assets/五分钟攻略/五分钟上手攻略-tag.png")} alt="Logo" width="183px" height="41px"/>
@@ -74,7 +75,7 @@ class FastGuide extends Component{
                 </Col>
         	</Row>
 
-
+			</Element>
             </div>
         )
     }

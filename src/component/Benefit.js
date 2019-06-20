@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Intro.css';
 import {Row, Col,Input, Divider} from 'antd';
-
+import { Element } from 'react-scroll';
 
 class Benefit extends Component{
 
@@ -9,6 +9,7 @@ class Benefit extends Component{
         
         return(
             <div>
+            <Element id="Benefit">
             <div className = "title">
             <img src={require("../assets/如何收益/收益如何-tag.png")} alt="Logo" width="25%"/><br /><br /><br />
 
@@ -110,6 +111,8 @@ class Benefit extends Component{
           </Col>
             </Row>
 
+
+            </Element>
             </div>
 
         )
