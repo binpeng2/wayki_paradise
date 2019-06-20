@@ -10,22 +10,22 @@ class Benefit extends Component{
         return(
             <div>
             <div className = "title">
-            <img src={require("../assets/如何收益/收益如何-tag.png")} alt="Logo" width="275px" height="41px"/><br /><br /><br />
+            <img src={require("../assets/如何收益/收益如何-tag.png")} alt="Logo" width="25%"/><br /><br /><br />
 
             </div>
-            <Row >
+            <Row type="flex" justify="center">
                 <Col xs={10}>
-                <span className= "tag-l">用户收益计算器</span><br />
-                <Input style={{width:'30%', height:"5vh",marginLeft:"25em",marginBottom:"5em"}}>
+                <span className= "tag">用户收益计算器</span><br />
+                <Input style={{width:'30%', height:"5vh",marginLeft:"45%",marginBottom:"5%"}}>
                 </Input>
-                <span-l style={{marginLeft:"3em"}}>Gaex 交易所时时汇率  <br />
+                <span-l style={{marginLeft:"5%"}}>Gaex 交易所时时汇率  <br />
                 &emsp;&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB 
                 </span-l ><br />
                 </Col>
 
-                <Col xs={2}>
+                <Col xs={1}>
 
-                <Divider type="vertical" style={{height:"20em",marginLeft:"10em"}}/>
+                <Divider type="vertical" style={{height:"20em",marginLeft:"25%"}}/>
                   
                 </Col>
 
@@ -41,10 +41,10 @@ class Benefit extends Component{
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
                 </Col>
           </Row><br /><br />
-          <Row>
-          <span className= "tag-l">维基天堂“宝石争霸”挖矿难度系数表</span><br />
+          <Row type="flex" justify="center">
+
           <Col xs={12}>
-          <br /><br />
+          <span className= "wiki">维基天堂“宝石争霸”挖矿难度系数表</span>
           <img src={require("../assets/如何收益/金字塔图表.png")} className="pyramid" width="70%" />
           </Col>
 
@@ -60,14 +60,18 @@ class Benefit extends Component{
 
             </span-r-small>
           </Col>
-          </Row><br /><br />
-            <Row>
-            <span className= "tag-l">防御塔价值:</span><br />
-            <Col xs={6} className = "tower-l">
+          </Row><br />
+
+          <span className= "tower-value">防御塔价值:</span><br /><br />
+            <Row >
+            
+            <Col span={6} className = "tower-l">
+            
+
           <img src={require("../assets/如何收益/tower-10.png")} alt="tower-l" width="20%" />
             弓箭塔 = 10 WICC (新玩家首塔免费送)
           </Col>
-          <Col xs={6} className = "tower-r">
+          <Col span={6} className = "tower-r">
           <img src={require("../assets/如何收益/tower-1000.png")} alt="tower-r" width="20%"/>
           战斧塔 = 充值 1000 WICC
           </Col>

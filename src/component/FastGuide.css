@@ -1,6 +1,7 @@
 div.step {
-  position: absolute;
-  left: 0px;
+  position: relative;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 
@@ -15,13 +16,31 @@ div.step-body-2 {
   width: 800px;
 }
 
+div.rb {
+  position: relative;
+  left: 7%;
+}
+
+div.r {
+  position: relative;
+  left: 10%;
+}
+
 h1{
 	font-size:20px;
 	font-weight: bold;
 }
 
-
 div.pic {
-  position: absolute;
-  left: 280px;
+  position: relative;
+  left: 15%;
+}
+
+span-normal{
+  color:black;
+  display:block;
+  padding-left:20%;
+  padding-right:20%;
+  font-size: 20px;
+  text-align: justify;
 }

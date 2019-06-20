@@ -4,13 +4,15 @@
     vertical-align:middle;
 }
 
-span{
+.intro{
     color:black;
     display:block;
     padding-left:20%;
     padding-right:20%;
+    padding-bottom:5%;
     font-size: 20px;
     text-align: justify;
+
 }
 span-l{
     color:black;
@@ -32,10 +34,26 @@ span-r{
 span-r-small{
     color:black;
     display:block;
-    padding-left:82px;
-    padding-right:282px;
+    padding-left:10%;
+    padding-right:40%;
     font-size: 16px;
     text-align: justify;
+}
+.tag{
+    color:white;
+    padding-left:34%;
+
+}
+.wiki{
+    color:white;
+    padding-left:40%;
+    margin-bottom: 30%;
+
+}
+.tower-value{
+    color:white;
+    padding-left:20%;
+    margin-bottom: 30%;
 }
 
 .tag-l{
@@ -43,7 +61,7 @@ span-r-small{
     color:white;
     display:block;
     padding-left:40%;
-    margin-bottom: 11px;
+    margin-bottom: 5%;
     padding-right:10%;
     font-size: 25px;
     text-align: justify;
@@ -54,52 +72,37 @@ span-r-small{
     color:white;
     display:block;
     padding-left:10%;
-    margin-bottom: 11px;
+    margin-bottom: 3%;
     padding-right:40%;
     font-size: 25px;
     text-align: justify;
 }
 .ant-input-number{
-    margin: 10em;
+    margin: 10%;
     color: white;
 
 }
 .tower-l{
-    margin-left: 23em;
-    margin-right:0em;
-    margin-bottom:5em;
+    margin-left: 20%;
+    margin-right:0%;
+    margin-bottom:5%;
     color: black;
     font-size: 18px;
 }
 
 .tower-r{
-    margin-left: 10em;
-    margin-right:0em;
-    margin-bottom:5em;
+    margin-left: 10%;
+    margin-right:0%;
+    margin-bottom:5%;
     color: black;
     font-size: 18px;
 }
 
 .pyramid{
-    margin-left:10em;
+    margin-left:40%;
+    margin-top:10%;
 }
 
 .price{
     font-size: 18px;
 }
-
-.row{
-    margin-left:100px;
-}
-.Gem-1{
-    margin-left:3em;
-}
-.Gem-2{
-    margin-left:0em;
-}
- .Gem-3{
-    margin-left:-3em;
-}
-.Gem-4{
-    margin-left:-6em;
-} 
