@@ -20,7 +20,7 @@ class Benefit extends Component{
                 <Input style={{width:'30%', height:"5vh",marginLeft:"45%",marginBottom:"5%"}}>
                 </Input>
                 <span-l style={{marginLeft:"5%"}}>Gaex 交易所时时汇率  <br />
-                &emsp;&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB 
+                XXX WPT ≈ XXX WICC ≈ XXX RMB 
                 </span-l ><br />
                 </Col>
 
@@ -42,11 +42,11 @@ class Benefit extends Component{
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
                 </Col>
           </Row><br /><br />
+          <span className= "wiki">维基天堂“宝石争霸”挖矿难度系数表</span><br /><br />
           <Row type="flex" justify="center">
-
           <Col xs={12}>
-          <span className= "wiki">维基天堂“宝石争霸”挖矿难度系数表</span>
-          <img src={require("../assets/如何收益/金字塔图表.png")} className="pyramid" width="70%" />
+          
+          <img src={require("../assets/如何收益/金字塔图表.png")} alt="pyramid"className="pyramid" width="70%" />
           </Col>
 
           <Col xs={12}>

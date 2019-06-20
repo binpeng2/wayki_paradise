@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './FastGuide.css';
 import {Row, Col} from 'antd';
-import { relative } from 'path';
 import { Element } from 'react-scroll';
 
 class FastGuide extends Component{
@@ -15,10 +14,10 @@ class FastGuide extends Component{
             <div className = "title">
             <img src={require("../assets/五分钟攻略/五分钟上手攻略-tag.png")} alt="Logo" width="183px" height="41px"/>
             </div>
-			<div class="step">
+			<div className="step">
 			<span-normal><strong>步骤1</strong> &nbsp;&nbsp;&nbsp;&emsp; 进入游戏两种方式</span-normal>
 			</div>
-			<div class = "rb">
+			<div className = "rb">
 			<span-normal>
 					1、Web端 通过《宝石争霸》官网进入：<a href="https://www.waykidapps.com/">https://www.waykidapps.com/</a><br/>
      			 &nbsp;  &nbsp; &nbsp;&nbsp;&nbsp;Web端 通过维基链官网进入：<a href="https://www.waykichain.com/">https://www.waykichain.com/</a><br/>
@@ -28,7 +27,7 @@ class FastGuide extends Component{
 			</span-normal>
 			</div>
 
-			<div class = "step">
+			<div className = "step">
 			<span-normal><strong>步骤2</strong> &nbsp;&nbsp;&nbsp;&emsp; 充值</span-normal>
 			</div>
 
@@ -43,7 +42,7 @@ class FastGuide extends Component{
                 </Col>
         	</Row>
 
-			<div class = "step">
+			<div className = "step">
 			<span-normal><strong>步骤4</strong> &nbsp;&nbsp;&nbsp;&emsp; 复利与提现</span-normal>
 			</div>
 			<Row type="flex" justify="center">
@@ -59,7 +58,7 @@ class FastGuide extends Component{
                 </Col>
         	</Row>
 
-			<div class = "step">
+			<div className = "step">
 			<span-normal><strong>步骤4</strong> &nbsp;&nbsp;&nbsp;&emsp; 复利与提现</span-normal>
 			</div>
 			<Row type="flex" justify="center">

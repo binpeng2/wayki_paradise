@@ -28,7 +28,7 @@ class Intro extends Component{
             
                 <Row type="flex" justify="center">
                 <Col span={12} >
-                <span class = "tag-l">充值提币</span>
+                <span className = "tag-l">充值提币</span>
                 <span-l>充值（“共振”）：<br />
                     1.充值时请点击游戏界面的右上角的“共振”来选择宝石充值套餐，之后会链接到用户所绑定的wayki钱包中购买。<br />
                     2.充值记录也可在《宝石争霸》的“用户中心”中的“宝石流水”里查看。<br />
@@ -40,15 +40,15 @@ class Intro extends Component{
                 </span-l><br />
                 </Col>
                 <Col span={12} >
-                <span class = "tag-r">邀请奖励</span>
+                <span className = "tag-r">邀请奖励</span>
                 <span-r>通过分享邀请码，邀请好友注册游戏；
                      邀请人盈利分为三级，按邀请关系依次获得被邀请人投资额的3% - 2% - 1%的收益。
                 </span-r><br />
-                <span class = "tag-r">一键部署</span>
+                <span className = "tag-r">一键部署</span>
                 <span-r className = "column">当用户的宝石数量超过100个时，可点击使用一键部署。系统将会自动帮助用户按防御塔等级顺序由高至低在可支付范围内一键部署。
                 </span-r>
 
-                <span class = "tag-r">炼石复投</span>
+                <span className = "tag-r">炼石复投</span>
                 <span-r className = "column">将防御塔收益产生的WPT兑换成宝石，继续用于建造或升级防御塔,使用“炼石“更有5%宝石赠送。
 炼石兑换宝石计算公式：<br/>
                 <img src={require("../assets/formula.png")} alt="Logo" width="100%" />
