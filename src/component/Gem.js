@@ -11,7 +11,7 @@ class Gem extends Component{
             <div>
                 <Element id="Gem">
             <div className = "title">
-            <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="299px" height="41px"/><br /><br />
+            <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="25%"/><br /><br />
             </div>
 
             <Row type="flex" justify="center" className="row">

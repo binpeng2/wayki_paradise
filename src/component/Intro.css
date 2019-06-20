@@ -10,17 +10,41 @@
     padding-left:20%;
     padding-right:20%;
     padding-bottom:5%;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
 
 }
+
+span {
+    color:black;
+    display:block;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span {
+	   font-size: 0.6rem;
+   }
+}
+
 span-l{
     color:black;
     display:block;
     padding-left:40%;
     padding-right:10%;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
+}
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span-l{
+    color:black;
+    display:block;
+    padding-left:40%;
+    padding-right:10%;
+    font-size: 0.6rem;
+    text-align: justify;
+}
 }
 
 span-r{
@@ -28,27 +52,68 @@ span-r{
     display:block;
     padding-left:10%;
     padding-right:40%;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span-r{
+    color:black;
+    display:block;
+    padding-left:10%;
+    padding-right:40%;
+    font-size: 0.6rem;
+    text-align: justify;
+}
+}
+
 span-r-small{
     color:black;
     display:block;
     padding-left:10%;
     padding-right:40%;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: justify;
 }
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span-r-small{
+    color:black;
+    display:block;
+    padding-left:10%;
+    padding-right:40%;
+    font-size: 0.5rem;
+    text-align: justify;
+}
+}
+
 .tag{
     color:white;
     padding-left:34%;
-
+	font-size:1.5625rem;
 }
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .tag{
+    color:white;
+    padding-left:34%;
+	font-size:0.7rem;
+   }
+}
+
 .wiki{
     color:white;
     padding-left:20%;
-
+	font-size:1.5625rem;
 }
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .wiki{
+    color:white;
+    padding-left:20%;
+	font-size:0.7rem;
+}
+}
+
 .tower-value{
     color:white;
     padding-left:20%;
@@ -62,8 +127,21 @@ span-r-small{
     padding-left:40%;
     margin-bottom: 5%;
     padding-right:10%;
-    font-size: 25px;
+    font-size: 1.5625rem;
     text-align: justify;
+}
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .tag-l{
+    font-family:STHeiti;
+    color:white;
+    display:block;
+    padding-left:40%;
+    margin-bottom: 5%;
+    padding-right:10%;
+    font-size: 0.7rem;
+    text-align: justify;
+}
 }
 
 .tag-r{
@@ -73,9 +151,23 @@ span-r-small{
     padding-left:10%;
     margin-bottom: 3%;
     padding-right:40%;
-    font-size: 25px;
+    font-size: 1.5625rem;
     text-align: justify;
 }
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .tag-r{
+    font-family:STHeiti;
+    color:white;
+    display:block;
+    padding-left:10%;
+    margin-bottom: 3%;
+    padding-right:40%;
+    font-size: 0.7rem;
+    text-align: justify;
+}
+}
+
+
 .ant-input-number{
     margin: 10%;
     color: white;
@@ -86,7 +178,16 @@ span-r-small{
     margin-right:0%;
     margin-bottom:5%;
     color: black;
-    font-size: 18px;
+    font-size: 1.125rem;
+}
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .tower-l{
+    margin-left: 20%;
+    margin-right:0%;
+    margin-bottom:5%;
+    color: black;
+    font-size: 0.55rem;
+}
 }
 
 .tower-r{
@@ -94,7 +195,17 @@ span-r-small{
     margin-right:0%;
     margin-bottom:5%;
     color: black;
-    font-size: 18px;
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .tower-r{
+    margin-left: 10%;
+    margin-right:0%;
+    margin-bottom:5%;
+    color: black;
+    font-size: 0.55rem;
+}
 }
 
 .pyramid{
@@ -104,5 +215,16 @@ span-r-small{
 }
 
 .price{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   .price{
+    font-size: 0.55rem;
+}
+}
+
+Input.In {
+	width:'10%';
+}
+

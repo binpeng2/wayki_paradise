@@ -12,7 +12,7 @@ class FastGuide extends Component{
 			<Element id="FastGuide">
 
             <div className = "title">
-            <img src={require("../assets/五分钟攻略/五分钟上手攻略-tag.png")} alt="Logo" width="183px" height="41px"/>
+            <img src={require("../assets/五分钟攻略/五分钟上手攻略-tag.png")} alt="Logo" width="25%"/>
             </div>
 			<div className="step">
 			<span-normal><strong>步骤1</strong> &nbsp;&nbsp;&nbsp;&emsp; 进入游戏两种方式</span-normal>

@@ -7,13 +7,13 @@ div.step {
 
 div.step-body {
   position: absolute;
-  left: 100px;
+  left: 7%;
 }
 
 div.step-body-2 {
   position: relative;
-  left: 200px;
-  width: 800px;
+  left: 13%;
+  width: 50%;
 }
 
 div.rb {
@@ -26,14 +26,20 @@ div.r {
   left: 10%;
 }
 
-h1{
-	font-size:20px;
-	font-weight: bold;
-}
-
 div.pic {
   position: relative;
   left: 15%;
+}
+
+h1{
+	font-size:1.25rem;
+	font-weight: bold;
+}
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   h1{
+	font-size:0.6rem;
+	font-weight: bold;
+}
 }
 
 span-normal{
@@ -41,6 +47,16 @@ span-normal{
   display:block;
   padding-left:20%;
   padding-right:20%;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: justify;
+}
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span-normal{
+  color:black;
+  display:block;
+  padding-left:20%;
+  padding-right:20%;
+  font-size: 0.6rem;
+  text-align: justify;
+}
 }

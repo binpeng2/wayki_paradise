@@ -1,7 +1,15 @@
 div.nav-content {
 	position: absolute;
 	right: 4%;
-	top: 3%;
+	top: 2%;
+}
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   div.nav-content {
+	position: absolute;
+	right: 3%;
+	top: 1%;
+   }
 }
 
 .link {
@@ -10,5 +18,13 @@ div.nav-content {
 
 span.nb {
 	font-weight: 700;
-	font-size: 0.8em;
+	font-size: 1.25rem;
 }
+
+@media screen and (max-width: 512px){/* 可视区域小于 512px, 设置更小font-size属性 */
+   span.nb {
+	font-weight: 700;
+	font-size: 0.65rem;
+   }
+}
+

@@ -17,7 +17,7 @@ class Benefit extends Component{
             <Row type="flex" justify="center">
                 <Col xs={10}>
                 <span className= "tag">用户收益计算器</span><br />
-                <Input style={{width:'30%', height:"5vh",marginLeft:"45%",marginBottom:"5%"}}>
+                <Input style={{width:'30%', marginLeft:"45%",marginBottom:"5%"}}>
                 </Input>
                 <span-l style={{marginLeft:"5%"}}>Gaex 交易所时时汇率  <br />
                 XXX WPT ≈ XXX WICC ≈ XXX RMB 
