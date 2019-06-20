@@ -11,36 +11,36 @@ class Gem extends Component{
             <div>
                 <Element id="Gem">
             <div className = "title">
-            <img src={require("../assets/玩家使用wicc兑换宝石/wicc兑换宝石-tag.png")} alt="tag" width="25%"/><br /><br />
+            <img src={require("../assets/Gem/gem-tag.png")} alt="tag" width="25%"/><br /><br />
             </div>
 
             <Row type="flex" justify="center" className="row">
                 <Col  span={4} >
-                <img src={require("../assets/玩家使用wicc兑换宝石/01.png")} alt="Gem" width="100%" max-width="100%"/>
+                <img src={require("../assets/Gem/01.png")} alt="Gem" width="100%" max-width="100%"/>
                 </Col>
                 <Col  span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/02.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/02.png")} alt="Gem" width="100%"/>
                 </Col>
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/03.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/03.png")} alt="Gem" width="100%"/>
                 </Col>
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/04.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/04.png")} alt="Gem" width="100%"/>
                 </Col>
           </Row>
 
           <Row type="flex" justify="center" className="row">
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/05.png")} alt="Gem" width="100%" />
+                <img src={require("../assets/Gem/05.png")} alt="Gem" width="100%" />
                 </Col>
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/06.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/06.png")} alt="Gem" width="100%"/>
                 </Col>
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/07.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/07.png")} alt="Gem" width="100%"/>
                 </Col>
                 <Col span={4}>
-                <img src={require("../assets/玩家使用wicc兑换宝石/08.png")} alt="Gem" width="100%"/>
+                <img src={require("../assets/Gem/08.png")} alt="Gem" width="100%"/>
                 </Col>
           </Row>
 

@@ -11,7 +11,7 @@ class Benefit extends Component{
             <div>
             <Element id="Benefit">
             <div className = "title">
-            <img src={require("../assets/如何收益/收益如何-tag.png")} alt="tag" width="25%"/><br /><br /><br />
+            <img src={require("../assets/Benefit/benefit-tag.png")} alt="tag" width="25%"/><br /><br /><br />
 
             </div>
             <Row type="flex" justify="center">
@@ -46,7 +46,7 @@ class Benefit extends Component{
           <Row type="flex" justify="center">
           <Col xs={12}>
           
-          <img src={require("../assets/如何收益/金字塔图表.png")} alt="pyramid"className="pyramid" width="70%" />
+          <img src={require("../assets/Benefit/pyramid.png")} alt="pyramid"className="pyramid" width="70%" />
           </Col>
 
           <Col xs={12}>
@@ -69,44 +69,44 @@ class Benefit extends Component{
             <Col span={6} className = "tower-l">
             
 
-          <img src={require("../assets/如何收益/tower-10.png")} alt="tower-l" width="20%" />
+          <img src={require("../assets/Benefit/tower-10.png")} alt="tower-l" width="20%" />
             弓箭塔 = 10 WICC (新玩家首塔免费送)
           </Col>
           <Col span={6} className = "tower-r">
-          <img src={require("../assets/如何收益/tower-1000.png")} alt="tower-r" width="20%"/>
+          <img src={require("../assets/Benefit/tower-1000.png")} alt="tower-r" width="20%"/>
           战斧塔 = 充值 1000 WICC
           </Col>
             </Row>
 
             <Row>
             <Col xs={6} className = "tower-l">
-          <img src={require("../assets/如何收益/tower-200.png")} alt="tower-l" width="20%"/>
+          <img src={require("../assets/Benefit/tower-200.png")} alt="tower-l" width="20%"/>
           神箭塔 = 充值 210 WICC 
           </Col>
           <Col xs={6} className = "tower-r">
-          <img src={require("../assets/如何收益/tower-2000.png")} alt="tower-r" width="20%"/>
+          <img src={require("../assets/Benefit/tower-2000.png")} alt="tower-r" width="20%"/>
           巨斧塔 = 充值 3000 WICC 
           </Col>
             </Row>
 
             <Row>
             <Col xs={6} className = "tower-l">
-          <img src={require("../assets/如何收益/tower-5000.png")} alt="tower-l" width="20%"/>
+          <img src={require("../assets/Benefit/tower-5000.png")} alt="tower-l" width="20%"/>
           冰凌塔 = 充值 5000 WICC 
           </Col>
           <Col xs={6} className = "tower-r">
-          <img src={require("../assets/如何收益/tower-10000.png")} alt="tower-r" width="20%"/>
+          <img src={require("../assets/Benefit/tower-10000.png")} alt="tower-r" width="20%"/>
           铁炮塔 = 充值 10000 WICC 
           </Col>
             </Row>
 
             <Row>
             <Col xs={6} className = "tower-l">
-          <img src={require("../assets/如何收益/tower-8000.png")} alt="tower" width="20%"/>
+          <img src={require("../assets/Benefit/tower-8000.png")} alt="tower" width="20%"/>
           冰球塔 = 充值 13000 WICC 
           </Col>
           <Col xs={6} className = "tower-r">
-          <img src={require("../assets/如何收益/tower-15000.png")} alt="tower" width="20%"/>
+          <img src={require("../assets/Benefit/tower-15000.png")} alt="tower" width="20%"/>
           火炮塔 = 充值 25000 WICC 
           </Col>
             </Row>

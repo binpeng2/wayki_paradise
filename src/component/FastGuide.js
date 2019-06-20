@@ -12,7 +12,7 @@ class FastGuide extends Component{
 			<Element id="FastGuide">
 
             <div className = "title">
-            <img src={require("../assets/五分钟攻略/五分钟上手攻略-tag.png")} alt="tag" width="15%"/>
+            <img src={require("../assets/FastGuide/guide-tag.png")} alt="tag" width="15%"/>
             </div>
 			<div className="step">
 			<span-normal><strong>步骤1</strong> &nbsp;&nbsp;&nbsp;&emsp; 进入游戏两种方式</span-normal>
@@ -34,7 +34,7 @@ class FastGuide extends Component{
 			<Row type="flex" justify="center">
 		    	<Col span={5} ></Col>
                 <Col span={8} >
-      	        <img src={require("../assets/五分钟攻略/步骤2.png")} alt="Logo" width="100%"/>
+      	        <img src={require("../assets/FastGuide/step2.png")} alt="Logo" width="100%"/>
                 </Col>
                 <Col span={11} >
 				<span-r>1.	进入游戏界面，点击右上角的“共振”图标，进入充值界面。<br/>
@@ -48,7 +48,7 @@ class FastGuide extends Component{
 			<Row type="flex" justify="center">
 		    	<Col span={5} ></Col>
                 <Col span={8} >
-      	        <img src={require("../assets/五分钟攻略/步骤3.png")} alt="Logo" width="100%"/>
+      	        <img src={require("../assets/FastGuide/step3.png")} alt="Logo" width="100%"/>
                 </Col>
                 <Col span={11} >
 				<span-r>1.	点击地图中任一塔座，消耗宝石开始建造防御塔。游戏提供四个级别的防御塔给用户，不同级别防御塔的攻击力与其所产生的收益都不同。<br/>
@@ -64,7 +64,7 @@ class FastGuide extends Component{
 			<Row type="flex" justify="center">
 		    	<Col span={5} ></Col>
                 <Col span={8} >
-      	        <img src={require("../assets/五分钟攻略/步骤4.png")} alt="Logo" width="100%"/>
+      	        <img src={require("../assets/FastGuide/step4.png")} alt="Logo" width="100%"/>
                 </Col>
                 <Col span={11} >
 				<span-r>1.	每座防御塔产生的收益将会实时显示在“防御收益”中，用户可以根据个人偏好选择“炼石”或“提现”。<br/>

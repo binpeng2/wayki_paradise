@@ -12,7 +12,7 @@ class Intro extends Component{
             <div>
             <Element id="Intro">
             <div className = "title">
-            <img src={require("../assets/玩法介绍-tag.png")} alt="tag" width="10%" />
+            <img src={require("../assets/intro-tag.png")} alt="tag" width="10%" />
             </div>
 
                 <article className = "IntroData">
