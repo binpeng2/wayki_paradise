@@ -33,9 +33,9 @@ class Benefit extends Component{
 
                 <Col xs={12}>
                 <span className = "tag-r">每日收益： 3%</span>
-                <span-r>XXX WPT ≈ XXX WICC ≈ XXX RMB</span-r>
+                <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB</span-r>
                 <span className = "tag-r">每周收益： 3%</span>
-                <span-r>XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
+                <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
                 <span className = "tag-r">每月收益： 3%</span>
                 <span-r>&emsp;XXX WPT ≈ XXX WICC ≈ XXX RMB </span-r>
                 <span className = "tag-r">三月收益： 3%</span>
