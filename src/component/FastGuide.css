@@ -2,7 +2,7 @@ div.step {
   position: relative;
   margin-bottom: 1%;
   margin-top: 3%;
-} 
+}
 
 
 div.step-body {
@@ -15,7 +15,6 @@ div.step-body-2 {
   left: 13%;
   width: 50%;
 }
-
 
 div.r {
   position: relative;
@@ -31,6 +30,13 @@ h1{
 	font-size:1.25rem;
 	font-weight: bold;
 }
+
+.currentLevel{
+  margin-left: 30%;
+  margin-top: -10px;
+}
+
+
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    h1{
 	font-size:0.6rem;
@@ -74,3 +80,4 @@ span-normal{
 .col-step{
   padding-left:5%;
 }
+
