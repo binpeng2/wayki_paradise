@@ -75,6 +75,7 @@ class Benefit extends Component{
 
 
                 <Col xs={12}>
+
                 <span className = "tag-r">每日收益：{this.state.dailyRate} % </span>
                 <span-r>&emsp; {this.state.dailyEarn} WPT</span-r>
                 <span className = "tag-r">每周收益：{this.state.weeklyRate} %</span>

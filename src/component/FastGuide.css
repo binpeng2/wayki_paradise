@@ -15,11 +15,6 @@ div.step-body-2 {
   left: 13%;
   width: 50%;
 }
-/*
-div.rb {
-  position: relative;
-  left: 7%;
-} */
 
 div.r {
   position: relative;
@@ -48,18 +43,20 @@ h1{
 	font-weight: bold;
 }
 }
-.login{
+.step1-login{
   color:black;
   display:block;
-  padding-left:24%;
+  padding-left:16%;
+  padding-right:15%;
   font-size: 1.25rem;
   text-align: justify;
 }
 
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
-  .login{
+  .step1-login{
  color:black;
- padding-left:10%;
+ padding-left:13%;
+ padding-right:5%;
  font-size: 0.6rem;
 }
 }
@@ -67,7 +64,7 @@ h1{
 span-normal{
   color:black;
   display:block;
-  padding-left:20%;
+  padding-left: 12%;
   font-size: 1.25rem;
   text-align: justify;
 }
@@ -80,3 +77,7 @@ span-normal{
   text-align: justify;
 }
 }
+.col-step{
+  padding-left:5%;
+}
+
