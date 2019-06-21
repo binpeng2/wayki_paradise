@@ -4,29 +4,34 @@
     vertical-align:middle;
 }
 
+
 .intro{
     color:black;
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10%;
+    padding-right:10%;
     font-size: 1.25rem;
 }
 
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    .intro{
-	   font-size: 0.6rem;
+       font-size: 0.6rem;
+       padding-left:2.5%;
+       padding-right:2.5%;
    }
 }
 
 .example{
     color:black;
-    padding-left:20%;
-    padding-right:20%;
+    padding-left:10%;
+    padding-right:10%;
     font-size: 1.25rem;
 }
 
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    .example{
-	   font-size: 0.6rem;
+       font-size: 0.6rem;
+       padding-left:2.5%;
+       padding-right:2.5%;
    }
 }
 
@@ -35,7 +40,7 @@
 span-l{
     color:black;
     display:block;
-    padding-left:40%;
+    padding-left:20%;
     padding-right:10%;
     font-size: 1.25rem;
     text-align: justify;
@@ -45,8 +50,8 @@ span-l{
    span-l{
     color:black;
     display:block;
-    padding-left:40%;
-    padding-right:10%;
+    padding-left:4%;
+    padding-right:2.5%;
     font-size: 0.6rem;
     text-align: justify;
 }
@@ -56,7 +61,7 @@ span-r{
     color:black;
     display:block;
     padding-left:10%;
-    padding-right:40%;
+    padding-right:20%;
     font-size: 1.25rem;
     text-align: justify;
 }
@@ -65,8 +70,8 @@ span-r{
    span-r{
     color:black;
     display:block;
-    padding-left:10%;
-    padding-right:40%;
+    padding-left:4%;
+    padding-right:4%;
     font-size: 0.6rem;
     text-align: justify;
 }
@@ -76,7 +81,7 @@ span-r-small{
     color:black;
     display:block;
     padding-left:10%;
-    padding-right:40%;
+    padding-right:20%;
     font-size: 1rem;
     text-align: justify;
 }
@@ -85,8 +90,7 @@ span-r-small{
    span-r-small{
     color:black;
     display:block;
-    padding-left:10%;
-    padding-right:40%;
+    padding-left:4%;
     font-size: 0.5rem;
     text-align: justify;
 }
@@ -94,42 +98,35 @@ span-r-small{
 
 .tag{
     color:white;
-    padding-left:34%;
-	font-size:1.5625rem;
+    padding-left:10%;
+    font-size:1.5625rem;
+    padding-bottom: 10%;
 }
 
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    .tag{
     color:white;
-    padding-left:34%;
+    padding-left:4%;
 	font-size:0.7rem;
    }
 }
 
-.wiki{
-    color:white;
-    padding-left:20%;
-	font-size:1.5625rem;
-}
-@media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
-   .wiki{
-    color:white;
-    padding-left:20%;
-	font-size:0.7rem;
-}
+.tower{
+    width:20%;
 }
 
-.tower-value{
-    color:white;
-    padding-left:20%;
-    margin-bottom: 30%;
-}
+@media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
+    .tower{
+    width:40%;
+    margin-right: 10%;
+    }
+ }
 
 .tag-l{
     font-family:STHeiti;
     color:white;
     display:block;
-    padding-left:40%;
+    padding-left:20%;
     margin-bottom: 5%;
     padding-right:10%;
     font-size: 1.5625rem;
@@ -141,9 +138,8 @@ span-r-small{
     font-family:STHeiti;
     color:white;
     display:block;
-    padding-left:40%;
+    padding-left:4%;
     margin-bottom: 5%;
-    padding-right:10%;
     font-size: 0.7rem;
     text-align: justify;
 }
@@ -154,7 +150,7 @@ span-r-small{
     color:white;
     display:block;
     padding-left:10%;
-    margin-bottom: 3%;
+    margin-bottom:3%;
     padding-right:40%;
     font-size: 1.5625rem;
     text-align: justify;
@@ -164,7 +160,7 @@ span-r-small{
     font-family:STHeiti;
     color:white;
     display:block;
-    padding-left:10%;
+    padding-left:4%;
     margin-bottom: 3%;
     padding-right:40%;
     font-size: 0.7rem;
@@ -187,12 +183,12 @@ span-r-small{
 }
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    .tower-l{
-    margin-left: 20%;
-    margin-right:0%;
+    margin-left: 15%;
+    padding-right:10%;
     margin-bottom:5%;
     color: black;
     font-size: 0.55rem;
-}
+    }
 }
 
 .tower-r{
@@ -205,19 +201,32 @@ span-r-small{
 
 @media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
    .tower-r{
-    margin-left: 10%;
-    margin-right:0%;
+    margin-left: 20%;
     margin-bottom:5%;
     color: black;
     font-size: 0.55rem;
 }
 }
 
+.input{
+    width:50%;
+    margin-left:"30%";
+    margin-bottom:"5%";
+}
+
 .pyramid{
-    margin-left:40%;
+    margin-left:20%;
     margin-top:10%;
     max-width: 60%;
 }
+
+
+@media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
+    .pyramid{
+        margin-left:10%;
+        max-width: 100%;
+    }
+ }
 
 .price{
     font-size: 1.125rem;
