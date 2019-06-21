@@ -17,6 +17,21 @@
    }
 }
 
+.example{
+    color:black;
+    padding-left:20%;
+    padding-right:20%;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 512px){/* ��������С�� 512px, ���ø�Сfont-size���� */
+   .example{
+	   font-size: 0.6rem;
+   }
+}
+
+
+
 span-l{
     color:black;
     display:block;
