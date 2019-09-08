@@ -20,6 +20,7 @@ function App() {
         </div>
       <img src={require("../src/assets/header-img.png")} alt="header" width="100%"/>
       </div>
+
       <div className = "content">
       <Navbar />
       <Intro />

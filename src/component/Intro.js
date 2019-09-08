@@ -44,7 +44,7 @@ class Intro extends Component{
                      邀请人盈利分为三级，按邀请关系依次获得被邀请人投资额的3% - 2% - 1%的收益。
                 </span-r><br />
                 <span className = "tag-r">一键部署</span>
-                <span-r className = "column">当用户的宝石数量超过100个时，可点击使用一键部署。系统将会自动帮助用户按防御塔等级顺序由高至低在可支付范围内一键部署。
+                <span-r className = "column">当用户的宝石数量超过100个时，可点击使用一键部署。系统将会自动帮助用户按防御塔等级顺序由高至低在可支付范围内一键部署。<br /><br />
                 </span-r>
 
                 <span className = "tag-r">炼石复投</span>
